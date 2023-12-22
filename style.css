@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #2d2d3c;
+}
+.cool {
+  color:#9199a1;
+  font-family:Impact;
+  font-size: 30px;
+  padding-bottom: 20px;
+  position:relative;
+  top:-25px;
+}
+.line {
+  border-width: 4px;
+  background-color:#420000;
+  border-color:#ffffffaa1;
+}
+.quakelogo {
+  transform: rotate(10deg);
+}
+.quakelogo2 {
+  transform: rotate(-10deg);
+}
+.leftside {
+  border: 5px solid #a6a6a6;
+  width: 170px;
+  background-color: #47475c;
+  font-family:cursive;
+}
+.topside {
+  border: 3px solid #ffffff;
+  background-color: #606080;
+  font-family:cursive;
+}
+a {
+  text-decoration: none;
+  color: #604ca9;
+}
+.awhite {
+  text-decoration: none;
+  color: #ffffff;
+}
