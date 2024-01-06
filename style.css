@@ -27,6 +27,7 @@ body {
 .leftside {
   border: 5px solid #a6a6a6;
   width: 170px;
+  float: left;
   background-color: #47475c;
   font-family:cursive;
 }
@@ -37,9 +38,21 @@ body {
 }
 a {
   text-decoration: none;
-  color: #604ca9;
+  color: #D5D9FF;
 }
 .awhite {
   text-decoration: none;
   color: #ffffff;
+}
+.rightside {
+ display: inline-block;
+  border: 1px solid red;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  margin-right: 10%;
+  width: 700px;
+  color:#9199a1;
+  font-family:Impact;
+  font-size: 30px;
+  position:relative;
 }
