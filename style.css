@@ -56,3 +56,10 @@ a {
   font-size: 30px;
   position:relative;
 }
+.mappoollist {
+  border: 5px solid #a6a6a6;
+  width: 500px;
+  float: center;
+  background-color: #47475c;
+  font-family:cursive;
+}
