@@ -39,6 +39,12 @@ body {
 a {
   text-decoration: none;
   color: #D5D9FF;
+  font-size: 20px;
+}
+p {
+  text-decoration: none;
+  color: #9199a1;
+  font-size: 25px;
 }
 .awhite {
   text-decoration: none;
@@ -67,6 +73,7 @@ a {
   font-family:Impact;
   font-size: 30px;
   position:relative;
+  
 }
 .mappoollist {
   border: 5px solid #a6a6a6;

@@ -40,21 +40,32 @@ a {
   text-decoration: none;
   color: #D5D9FF;
 }
+    .image-wrapper {
+      display: flex;
+      justify-content: flex-end; /* push image to the right */
+    }
 .awhite {
   text-decoration: none;
   color: #ffffff;
 }
-.rightside {
+.title {
  display: inline-block;
-  border: 1px solid red;
   padding: 1rem 1rem;
   vertical-align: middle;
-  margin-right: 10%;
-  width: 700px;
-  color:#9199a1;
+  width: 300px;
+  color:#ffffff;
   font-family:Impact;
   font-size: 30px;
-  position:relative;
+        margin-top: 6px;
+}
+.download {
+ display: inline-block;
+margin-top: 60px;
+  width: 300px;
+  color:#ffffff;
+  font-family:Impact;
+  font-size: 30px;
+
 }
 .swag {
  display: inline-block;
@@ -74,4 +85,13 @@ a {
   float: center;
   background-color: #47475c;
   font-family:cursive;
+}
+.image-wrapper {
+  display: flex;
+  justify-content: center; /* moves image and text to the right */
+  padding: 0px;
+}
+
+.image-column {
+  text-align: center; /* centers the text under the image */
 }
