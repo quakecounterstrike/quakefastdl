@@ -1,77 +1,39 @@
-html {
-  height: 100%;
-  width: 100%;
+
+pre 	{
+		font-family:Verdana,Tahoma;
+		color:#FFB000;
+    	}
+body	{
+		background:#000000;
+		margin-left:8px;
+		margin-top:0px;
+		}
+a	{
+    	text-decoration:    underline;
+	}
+a:link  {
+    color:  #FFFFFF;
+    }
+a:visited   {
+    color:  #FFFFFF;
+    }
+a:active    {
+    color:  #FFFFFF;
+    }
+a:hover {
+    color:  #FFFFFF;
+    text-decoration:    underline;
+    }
+button {
+	  font-size: 16px;
+	    border: none;
+
 }
-body {
-  background-color: #2d2d3c;
+.img2 {
+position:absolute;
+
 }
-.cool {
-  color:#9199a1;
-  font-family:Impact;
-  font-size: 30px;
-  padding-bottom: 20px;
-  position:relative;
-  top:-25px;
-}
-.line {
-  border-width: 4px;
-  background-color:#420000;
-  border-color:#ffffffaa1;
-}
-.quakelogo {
-  transform: rotate(10deg);
-}
-.quakelogo2 {
-  transform: rotate(-10deg);
-}
-.leftside {
-  border: 5px solid #a6a6a6;
-  width: 170px;
-  float: left;
-  background-color: #47475c;
-  font-family:cursive;
-}
-.topside {
-  border: 3px solid #ffffff;
-  background-color: #606080;
-  font-family:cursive;
-}
-a {
-  text-decoration: none;
-  color: #D5D9FF;
-}
-.awhite {
-  text-decoration: none;
-  color: #ffffff;
-}
-.rightside {
- display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  vertical-align: middle;
-  margin-right: 10%;
-  width: 700px;
-  color:#9199a1;
-  font-family:Impact;
-  font-size: 30px;
-  position:relative;
-}
-.swag {
- display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  vertical-align: middle;
-  margin-right: 0%;
-  width: 700px;
-  color:#9199a1;
-  font-family:Impact;
-  font-size: 30px;
-  position:relative;
-}
-.mappoollist {
-  border: 5px solid #a6a6a6;
-  width: 500px;
-  float: center;
-  background-color: #47475c;
-  font-family:cursive;
+.glow {
+   text-shadow: 2px 2px 500px white;
+	z-index: -5;
 }
